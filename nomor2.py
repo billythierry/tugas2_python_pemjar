@@ -18,10 +18,10 @@ if __name__ == "__main__":
             break
         
     print("\n===== Struk Belanja =====")
-    print("\nNama       Jumlah      Harga")
+    print("\nNama       Jumlah      Harga      Total")
     total = 0
     for item in cart:
-        print(f"{item[0]}       {item[2]}       Rp{item[1]}")
+        print(f"{item[0]}       {item[2]}       Rp{item[1]}       Rp{item[1]*item[2]}")
         total += item[3]
     
-    print(f"Total yang harus dibayar: Rp{total}")
+    print(f"Total pembelian: Rp{total}")

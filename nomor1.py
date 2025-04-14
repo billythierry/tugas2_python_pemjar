@@ -16,8 +16,8 @@ def Rating(nilai):
 
 if __name__ == "__main__":
     input_user = input('Masukkan nilai Anda : ')
-    nilai = int(input_user)
+    angka = int(input_user)
     
-    Rating(nilai)
+    Rating(angka)
     
 
